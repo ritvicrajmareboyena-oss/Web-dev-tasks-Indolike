@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Student | Web Developer | Learner</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is Ritvic. I am passionate about Web Development.</p>
+    <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>College Name</th>
+        <th>Year of Passing</th>
+      </tr>
+      <tr>
+        <td>AIML</td>
+        <td>Malla Reddy University</td>
+        <td>2029</td>
+      </tr>
+      <tr>
+        <td>Intermediate</td>
+        <td>Sri Chaitanya College</td>
+        <td>2025</td>
+      </tr>
+      <tr>
+        <td>SSC</td>
+        <td>Sri Chaitanya School</td>
+        <td>2023</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Basic JavaScript</li>
+      <li>Finance</li>
+      <li>Typing</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+
+      <label for="city">City</label>
+      <input type="text" id="city" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" required>
+
+      <label for="phone">Contact Number</label>
+      <input type="text" id="phone" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" required></textarea><br>
+
+      <div class="checkboxes">
+        <label for="Course">Course</label><br>
+        <label><input type="checkbox" value="CSC">CSC</label>
+        <label><input type="checkbox" value="AIML">AIML</label>
+        <label><input type="checkbox" value="Cyber Security"> Cyber Security</label>
+        <label><input type="checkbox" value="Data Science"> Data Science</label>
+        <label><input type="checkbox" value="IOT"> IOT</label>
+      </div>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ritvic | Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
